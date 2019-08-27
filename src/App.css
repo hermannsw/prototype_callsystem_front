@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* common */
+
+body {
+    font-family: 'PT Sans', sans-serif !important;
+}
+
+h1 {
+    display: inline-block;
+    width: 500px;
+}
+
+.btn {
+    padding: 12px 12px !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.no-border {
+    border: 0px solid !important;
+}
+
+.badge {
+    margin-right: 25px !important;
+    padding: 4px 20px !important;
+    border-radius: 15px !important;
+}
+
+.badge-red {
+    border: solid 2px #ff9d9d !important;
+    color: #ff9d9d !important;
+    background-color: #fff !important;
+}
+
+.badge-red:hover {
+    color: #fff !important;
+    background-color: #ff9d9d !important;
+}
+
+.badge-blue {
+    border: solid 2px #97c9ff !important;
+    color: #97c9ff !important;
+    background-color: #fff !important;
+}
+
+.badge-blue:hover {
+    color: #fff !important;
+    background-color: #97c9ff !important;
+}
+
+.badge-green {
+    border: solid 2px #6dfd85 !important;
+    color: #6dfd85 !important;
+    background-color: #fff !important;
+}
+
+.badge-green:hover {
+    color: #fff !important;
+    background-color: #6dfd85 !important;
+}
+
+/* modal */
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.close{
+    position:relative;
+    display:inline-block;
+    top:-155px;
+    left:-20px;
+    width:32px;
+    height:32px;
+    border:0;
+    background-color: #000000 !important;
+    border-radius:32px;
+    margin:0;
+    padding:0;
+    transform:scale(1);
+    cursor:pointer;
+}
+
+.close:before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    top:3px;
+    left:3px;
+    width:5px;
+    height:25px;
+    border:0;
+    margin:0;
+    padding:0;
+    background-color: #ffffff;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.close:after{
+    content:"";
+    position:relative;
+    display:inline-block;
+    top:2px;
+    left:-2px;
+    width:6px;
+    height:24px;
+    border:0;
+    margin:0;
+    padding:0;
+    background-color: #ffffff;
+    -moz-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+}
+
+.close:hover{
+    background-color:red;
+}

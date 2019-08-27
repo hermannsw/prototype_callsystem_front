@@ -1,0 +1,30 @@
+.container {
+    width: auto;
+    margin-top: 136px;
+    padding: 0px 50px;
+}
+
+.jobtag-wrapper {
+    margin: 0 auto;
+    width: 420px;
+}
+
+.badge {
+    font-size: 21px !important;
+}
+
+.two-rows-call-btn-width {
+    width: 50% !important;
+}
+
+.two-rows-hangup-btn-width {
+    width: 50% !important;
+}
+
+.three-rows-call-btn-width {
+    width: 30% !important;
+}
+
+.three-rows-hangup-btn-width {
+    width: 40% !important;
+}

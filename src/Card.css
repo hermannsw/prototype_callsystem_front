@@ -1,0 +1,19 @@
+.card-deck {
+    margin: 0 auto !important;
+    width: 571px;
+}
+
+.card {
+    min-width: 255px !important;
+    max-width: 255px !important;
+    margin-top: 30px;
+}
+
+.card-block-padding {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card-corp-img-height {
+    height: 168px !important;
+}

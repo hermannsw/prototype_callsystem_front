@@ -1,0 +1,15 @@
+.jobtag-wrapper {
+    margin: 0 auto;
+    width: 500px !important;
+}
+
+.badge-info {
+    border: solid 2px #17a2b8 !important;
+    color: #17a2b8 !important;
+    background-color: #fff !important;
+}
+
+.badge-info:hover {
+    color: #fff !important;
+    background-color: #17a2b8 !important;
+}
